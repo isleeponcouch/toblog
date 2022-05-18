@@ -3,21 +3,18 @@
     "name": "blog-slug",
     "path": "/blog/:slug?",
     "component": "/Users/tobigundry/nuxtblog/pages/blog/_slug.vue",
-    "chunkName": "pages/blog/_slug",
-    "_name": "_051591b0"
+    "chunkName": "pages/blog/_slug"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/tobigundry/nuxtblog/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_30e8ab52"
+    "chunkName": "pages/index"
   },
   {
     "name": "slug",
     "path": "/:slug",
     "component": "/Users/tobigundry/nuxtblog/pages/_slug.vue",
-    "chunkName": "pages/_slug",
-    "_name": "_3455ede2"
+    "chunkName": "pages/_slug"
   }
 ]
