@@ -11,7 +11,8 @@ module.exports = {
     safelist: [
     	'bg-purple-300',
     	'bg-blue-300',
-    	'bg-gray-300'
+    	'bg-gray-300',
+	'bg-green-300'
     ]
   },
   theme: {

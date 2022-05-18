@@ -2,22 +2,22 @@
   {
     "name": "blog-slug",
     "path": "/blog/:slug?",
-    "component": "/Users/tobygundry/nuxt/pages/blog/_slug.vue",
+    "component": "/Users/tobigundry/nuxtblog/pages/blog/_slug.vue",
     "chunkName": "pages/blog/_slug",
-    "_name": "_25e3f9cc"
+    "_name": "_051591b0"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/tobygundry/nuxt/pages/index.vue",
+    "component": "/Users/tobigundry/nuxtblog/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_0648a1b6"
+    "_name": "_30e8ab52"
   },
   {
     "name": "slug",
     "path": "/:slug",
-    "component": "/Users/tobygundry/nuxt/pages/_slug.vue",
+    "component": "/Users/tobigundry/nuxtblog/pages/_slug.vue",
     "chunkName": "pages/_slug",
-    "_name": "_09b5e446"
+    "_name": "_3455ede2"
   }
 ]
