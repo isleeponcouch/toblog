@@ -6,6 +6,7 @@ bg: bg-purple-300
 There are a handful of essential SwiftUI data management property wrappers we need to be familiar with when using the framework. 
 
 WIP
+WIP WIP WIP
 
 | Wrapper            | Relation to other wrappers                        | Related Protocols | Is Private?     | Allowed Types   | User Defined | Notes |
 | ------------------ | -----------------------------------------------   | ----------------- | --------------- | -------------   | --------     | ----- |
