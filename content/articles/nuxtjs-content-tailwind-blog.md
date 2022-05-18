@@ -1,5 +1,5 @@
 ---
-title: NuxtJS and Content
+title: New blog stack with NuxtJS, Content and Tailwind
 bg: bg-green-300
 ---
 
