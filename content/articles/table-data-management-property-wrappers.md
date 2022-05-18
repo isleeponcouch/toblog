@@ -5,6 +5,8 @@ bg: bg-purple-300
 
 There are a handful of essential SwiftUI data management property wrappers we need to be familiar with when using the framework. 
 
+WIP
+
 | Wrapper            | Relation to other wrappers                        | Related Protocols | Is Private?     | Allowed Types   | User Defined | Notes |
 | ------------------ | -----------------------------------------------   | ----------------- | --------------- | -------------   | --------     | ----- |
 | @Binding           | @State on the parent                              |                   | No              | Simple          | Yes          | When a parent has an @State that you want to bind to from a child view. Play button example where a play button uses and toggles the `isPlaying` property of a parent view.       |
