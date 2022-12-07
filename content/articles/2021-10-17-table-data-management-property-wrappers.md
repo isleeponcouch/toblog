@@ -1,12 +1,11 @@
 ---
 title: Comparison table of @EnvironmentObject, @State, @StateObject, @ObservedObject, @Environment
 bg: bg-purple-300
+createdAt: 2021-10-17
+updatedAt: 2022-05-18
 ---
 
 There are a handful of essential SwiftUI data management property wrappers we need to be familiar with when using the framework. 
-
-WIP
-WIP WIP WIP
 
 | Wrapper            | Relation to other wrappers                        | Related Protocols | Is Private?     | Allowed Types   | User Defined | Notes |
 | ------------------ | -----------------------------------------------   | ----------------- | --------------- | -------------   | --------     | ----- |

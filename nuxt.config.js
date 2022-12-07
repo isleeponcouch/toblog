@@ -1,5 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
+  builDir: 'newdist',
   target: 'static',
   router: {
         base: '//tobigu.github.io/'
