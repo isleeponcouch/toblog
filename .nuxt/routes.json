@@ -2,19 +2,19 @@
   {
     "name": "blog-slug",
     "path": "/blog/:slug?",
-    "component": "/Users/tobigundry/nuxtblog/pages/blog/_slug.vue",
+    "component": "/Users/tobigundry/tobdev/writing/pages/blog/_slug.vue",
     "chunkName": "pages/blog/_slug"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/tobigundry/nuxtblog/pages/index.vue",
+    "component": "/Users/tobigundry/tobdev/writing/pages/index.vue",
     "chunkName": "pages/index"
   },
   {
     "name": "slug",
     "path": "/:slug",
-    "component": "/Users/tobigundry/nuxtblog/pages/_slug.vue",
+    "component": "/Users/tobigundry/tobdev/writing/pages/_slug.vue",
     "chunkName": "pages/_slug"
   }
 ]
