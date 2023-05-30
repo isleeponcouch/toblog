@@ -7,9 +7,9 @@ updatedAt: 2023-05-30
 
 Accessing State's value outside of being installed on a View. This will result in a constant Binding of the initial value and will not update.
 
-TL;DR; this happens when trying to access a binding to a property on an `ObservableObject` that's wrapped with `@State` from within the observing View. The fix is to change the `@State` to an `@Published` and update the reference from `model.$property` to `$model.property`. That's the existingly well published fix and the rest of this post is about the why.
+TL;DR: this happens when trying to access a binding to a property on an `ObservableObject` that's wrapped with `@State` from within the observing View. The fix is to change the `@State` to an `@Published` and update the reference from `model.$property` to `$model.property`. That's the existingly well published fix and the rest of this post is about the why.
 
-This is a confusing warning message, the phrasing of 'outside of being installed on a View' could give the impression that this is a lifecycle issue and so maybe the fix is to adjust the timing of when the property is accessed, like moving it within a `.onAppear` block or similar.
+This is a confusing warning message, the phrasing of `outside of being installed on a View` could give the impression that this is a lifecycle issue and so maybe the fix is to adjust the timing of when the property is accessed, like moving it within a `.onAppear` block or similar.
 
 What the warning is in fact saying is that you can't use `@State` on something that isn't a `View` such as an `ObservedObject` and then reference that from your `View` and expect it to behave the same way. 
 
