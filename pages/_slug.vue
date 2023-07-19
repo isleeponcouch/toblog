@@ -20,8 +20,10 @@
     <a href="" class="">&crarr; Back</a>
     <p class="font-thin float-right">Published {{ formatDate(article.createdAt) }}, last updated {{ formatDate(article.updatedAt) }}</p>
     </div>
-    <header class="p-12 py-40 text-center text-white my-3 space-y-20" v-bind:class="article.bg">
-  	   <h1 class="text-5xl font-thin">{{ article.title }}</h1>
+    <header class="p-12 py-40 text-center text-white my-10 space-y-20" v-bind:class="article.bg">
+      <div class="max-w-4xl mx-auto">
+  	   <h1 class="text-4xl font-thin">{{ article.title }}</h1>
+      </div>
     </header>
 
 
@@ -36,7 +38,7 @@
     </div>
 
 
-    <nuxt-content class="container mx-auto space-y-6" :document="article" />
+    <nuxt-content class="max-w-4xl mx-auto space-y-6" :document="article" />
   </article>
 </template>
 

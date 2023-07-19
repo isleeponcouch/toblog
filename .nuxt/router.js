@@ -4,9 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _82e9635c = () => interopDefault(import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
-const _061a40ed = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
-const _04639fa5 = () => interopDefault(import('../pages/_slug.vue' /* webpackChunkName: "pages/_slug" */))
+const _4442e9e2 = () => interopDefault(import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
+const _3a8d7be0 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _3dfabe70 = () => interopDefault(import('../pages/_slug.vue' /* webpackChunkName: "pages/_slug" */))
 
 const emptyFn = () => {}
 
@@ -21,15 +21,15 @@ export const routerOptions = {
 
   routes: [{
     path: "/blog/:slug?",
-    component: _82e9635c,
+    component: _4442e9e2,
     name: "blog-slug"
   }, {
     path: "/",
-    component: _061a40ed,
+    component: _3a8d7be0,
     name: "index"
   }, {
     path: "/:slug",
-    component: _04639fa5,
+    component: _3dfabe70,
     name: "slug"
   }],
 
