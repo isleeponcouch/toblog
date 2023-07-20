@@ -15,14 +15,18 @@
 </script>
 
 <template>
-  <article class="m-12">
-    <div>
-    <a href="" class="">&crarr; Back</a>
-    <p class="font-thin float-right">Published {{ formatDate(article.createdAt) }}, last updated {{ formatDate(article.updatedAt) }}</p>
+  <article class="m-4 md:m-12">
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="text-left font-medium">
+        <a href="" class="">&crarr; Back</a>
+      </div>
+      <div class="text-center md:text-right">
+        <p class="md:font-medium text-sm md:text-base">Published {{ formatDate(article.createdAt) }}, last updated {{ formatDate(article.updatedAt) }}</p>
+      </div>
     </div>
-    <header class="p-12 py-40 text-center text-white my-10 space-y-20" v-bind:class="article.bg">
+    <header class="p-4 py-16 md:p-12 md:py-40 text-center text-white my-10 space-y-20" v-bind:class="article.bg">
       <div class="max-w-4xl mx-auto">
-  	   <h1 class="text-4xl font-thin">{{ article.title }}</h1>
+  	   <h1 class="text-xl md:text-4xl font-thin">{{ article.title }}</h1>
       </div>
     </header>
 
