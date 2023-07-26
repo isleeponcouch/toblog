@@ -12,6 +12,8 @@ Today though, for the first time in a long time, I've followed through one of th
 
 Introducing Elementboard, a periodic table at its simplest – at best, a platform for highschool to early university chemistry learning.
 
+<img src="/images/posts/elementboard-screenshot.png" alt="Elementboard Periodic Table App Screenshot" class="mx-auto" />
+
 I spun up this project after looking for a simple periodic table app on iOS and realising even though the space is crowded there was little that joined the intersection of feeling like a high quality native experience, while being educational and more than just a simple reference, but also fun.
 
 Elementboard goes further than just being a periodic table reference, though it is a high quality and detailed one if that's all you need. Students can customise their table to suit the style their institution or textbooks use, or just to suit their preference. Elementboard also provides a set of learning features to help students learn the basics of the periodic table of the elements and also to test and further their knowledge through customisable quizzes that can target specific knowledge areas.
