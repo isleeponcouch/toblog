@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1690332840",layout:"default",error:a,serverRendered:true,routePath:"\u002F2012-11-22-my-blogs-performance-before-and-after-cloudflare",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"8d427149"}}}}(null));
