@@ -3,7 +3,7 @@ title: I made a periodic table app and released it to the App Store
 bg: bg-indigo-300
 archived: false
 createdAt: 2023-07-01
-updatedAt: 2023-07-26
+updatedAt: 2023-09-08
 ---
 
 Every so often I fire up Xcode on my personal MacBook and start coding up some little app idea that popped into my head. Most of the time these apps end up being throwaways and shortly after I delete it from my machine and forget about it.
@@ -25,10 +25,16 @@ Elementboard Roadmap (I'll update this post as I go)
 - ~~Allow tiles to be configured and to allow hiding/showing of the atomic weight on the table~~ Added 17th July 2023
 - ~~A mutable soundscape to increase engagement and use as a teaching aid~~ Added 17th July 2023
 - ~~Quiz Builder: A detailed Quiz Builder feature to allow the creation of quizzes similar to the in-built quizzes.~~ Added 26th July 2023
-- History Mode: a visual teaching aid for teaching the discovery of the elements over time.
-- Theme System: Elementboard currently supports light and dark modes, but I want to take this further and allow users to choose their own theme. Because fun.
-- Bohr's Model: an interactive Bohr's model with electronic configuration visualisations.
+- ~~History Mode: a visual teaching aid for teaching the discovery of the elements over time.~~ Added 6th September 2023
+- ~~Bohr's Model: an interactive Bohr's model with electronic configuration visualisations.~~ Added 6th September 2023
+- ~~Periodic Trend Quizzes such as electronegativity~~ Added 6th September 2023
 - Balancing Tutorial/Quizzes: learning mode introducing and evaluating chemical equation balancing.
+- Theme System: Elementboard currently supports light and dark modes, but I want to take this further and allow users to choose their own theme. Because fun.
+- Rutherford Gold Foil Experiment Simulation
+- A tutorial to interactively introduce the periodic table
+- Electron Configuration tutorial and quizzes
+- Orbital Diagrams
+
 
 Elementboard is available now in the [App Store](https://apps.apple.com/au/app/elementboard/id6450800917).
 
