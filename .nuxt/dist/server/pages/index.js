@@ -8,18 +8,14 @@ exports.modules = {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=5c22ca6d&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"m-4 md:m-12"},[_vm._ssrNode("<div class=\"grid md:grid-cols-2 gap-4\"><div class=\"text-center md:text-left\"><p class=\"text-1xl font-medium\">Here things are written</p></div> <div class=\"text-center md:text-right\"><p class=\"text-1xl font-medium\">The value of the things is questionable</p></div></div> "),_vm._ssrNode("<ul class=\"my-10\">","</ul>",_vm._l((_vm.articles),function(article){return _vm._ssrNode("<li"+(_vm._ssrClass("p-4 md:p-12 text-white font-thin my-3",article.bg))+">","</li>",[_c('NuxtLink',{attrs:{"to":{ name: 'slug', params: { slug: article.slug } }}},[_c('div',[_c('h4',{staticClass:"max-w-4xl mx-auto text-xl md:text-4xl text-thin text-center"},[_vm._v(_vm._s(article.title))])])])],1)}),0)],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=795cb98f&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"m-4 md:m-12"},[_vm._ssrNode("<div class=\"text-center\"><p class=\"my-2 text-lg font-medium\">Hi 👋 – My name is Tobi, this is my blog where I write mostly about Swift and iOS related topics.</p></div> "),_vm._ssrNode("<ul class=\"my-10\">","</ul>",_vm._l((_vm.articles),function(article){return _vm._ssrNode("<li"+(_vm._ssrClass("p-4 md:p-12 text-white font-thin my-3",article.bg))+">","</li>",[_c('NuxtLink',{attrs:{"to":{ name: 'slug', params: { slug: article.slug } }}},[_c('div',[_c('h4',{staticClass:"max-w-4xl mx-auto text-xl md:text-4xl text-thin text-center"},[_vm._v(_vm._s(article.title))])])])],1)}),0)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=5c22ca6d&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=795cb98f&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js&
-//
-//
-//
-//
 //
 //
 //

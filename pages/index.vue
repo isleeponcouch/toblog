@@ -1,14 +1,10 @@
 <template>
   <div class="m-4 md:m-12">
 
-    <div class="grid md:grid-cols-2 gap-4">
-      <div class="text-center md:text-left">
-        <p class="text-1xl font-medium">Here things are written</p>
+
+      <div class="text-center">
+        <p class="my-2 text-lg font-medium">Hi 👋 – My name is Tobi, this is my blog where I write mostly about Swift and iOS related topics.</p>
       </div>
-      <div class="text-center md:text-right">
-        <p class="text-1xl font-medium">The value of the things is questionable</p>
-      </div>
-    </div>
     
     <ul class="my-10">
       <li v-for="article of articles" :key="article.slug" class="p-4 md:p-12 text-white font-thin my-3" v-bind:class="article.bg">
