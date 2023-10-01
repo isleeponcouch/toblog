@@ -1,3 +1,11 @@
+---
+title: Unpacking WWDC2023
+bg: bg-gray-300
+draft: true
+createdAt: 2023-07-20
+updatedAt: 2023-07-20
+---
+
 # Unpacking WWDC2023
 
 ## Structured Logging
