@@ -3,3 +3,12 @@
 @tailwind utilities;
 
 code { background-color:#efefef; color:#333 }
+
+a { background:#666666; color:#efefef; }
+a:hover { background:#333333; text-decoration:underline }
+
+li { list-style-type: square;}
+
+h2,h3,h4 {
+    font-weight:bold;
+}

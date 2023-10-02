@@ -22,7 +22,7 @@ module.exports = {
       'bg-fuschia-300',
       'bg-sky-300',
       'bg-yellow-300',
-      'bg-emerald-300'
+      'bg-emerald-300',
     ]
   },
   theme: {
