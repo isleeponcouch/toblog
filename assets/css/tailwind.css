@@ -4,9 +4,9 @@
 
 code { background-color:#efefef; color:#333 }
 
-.nuxt-content-container a { background:#666666; color:#efefef; }
-.nuxt-content-container a:hover { background:#333333; text-decoration:underline; }
-.nuxt-content-container li { list-style-type: square; }
-.nuxt-content-container h2, .nuxt-content-container h3, .nuxt-content-container h4 {
+.nuxt-content a { background:#666666; color:#efefef; }
+.nuxt-content a:hover { background:#333333; text-decoration:underline; }
+.nuxt-content li { list-style-type: square; }
+.nuxt-content h2, .nuxt-content h3, .nuxt-content h4 {
     font-weight:bold;
 }
