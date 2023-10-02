@@ -38,11 +38,11 @@ That being said though, I think the reasons OSLog doesn't do this is by design. 
 
 ## SFSymbols gets a glow up
 
-SFSymbols 5 introduced new animations which are super high quality animations/transitions that can be applied with the `.symbolEffect()` modifer in iOS 17. I've had a chance to have a play around with these and I've made a [demo app available on my Github](https://github.com/isleeponcouch/persistphotoswiftdata) for exploring what's possible.
+SFSymbols 5 introduced new animations which are super high quality animations/transitions that can be applied with the `.symbolEffect()` modifer in iOS 17. I've had a chance to have a play around with these and I've made a [demo app available on my Github](https://github.com/isleeponcouch/sfsymbolthing) for exploring what's possible.
 
 ## Swift Macros
 
-So this is kind of a big deal. Swift Macros are essentially like a macros in any other language, but they're more advanced in that they go further than just replacing the macro call with the contents of the macro but actually parse code and dynamically change it before compilation. This is what's powering SwiftData, the new Observable protocol and the new SwiftUI preview syntax.
+So this is kind of a big deal. Swift Macros are essentially like macros in any other language, but they're more advanced in that they go further than just replacing the macro call with the contents of the macro but actually parse code and dynamically change it before compilation. This is what's powering SwiftData, the new Observable protocol and the new SwiftUI preview syntax.
 
 I need to dive deeper but for now I'm following [A curated list of awesome Swift Macros](https://github.com/krzysztofzablocki/Swift-Macros) to keep in the loop.
 
