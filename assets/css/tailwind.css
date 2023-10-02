@@ -4,11 +4,9 @@
 
 code { background-color:#efefef; color:#333 }
 
-a { background:#666666; color:#efefef; }
-a:hover { background:#333333; text-decoration:underline }
-
-li { list-style-type: square;}
-
-h2,h3,h4 {
+.nuxt-content-container a { background:#666666; color:#efefef; }
+.nuxt-content-container a:hover { background:#333333; text-decoration:underline; }
+.nuxt-content-container li { list-style-type: square; }
+.nuxt-content-container h2, .nuxt-content-container h3, .nuxt-content-container h4 {
     font-weight:bold;
 }
