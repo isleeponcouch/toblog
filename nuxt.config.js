@@ -10,7 +10,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'tobigu blog',
+    title: 'toblog.dev',
     htmlAttrs: {
       lang: 'en'
     },

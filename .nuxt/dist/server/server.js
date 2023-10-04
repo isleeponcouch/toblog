@@ -2578,7 +2578,7 @@ async function createApp(ssrContext, config = {}) {
 
   const app = {
     head: {
-      "title": "tobigu blog",
+      "title": "toblog.dev",
       "htmlAttrs": {
         "lang": "en"
       },
