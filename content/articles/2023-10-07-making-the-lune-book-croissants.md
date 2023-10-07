@@ -19,7 +19,7 @@ The author has put a lot of effort into adapting the crossant making process to 
 
 What I mean by that is that there are a lot of recipes out there for creating home kitchen friendly croissants, usually in a maximum of 2 days, that fall more into the 'croissant-like' category. That is a cresscent-shaped buttery bread that probably tastes pretty good and more or less looks like a croissant and for all intents and purposes is a croissant, but still somehow just isn't an actual legit croissant.
 
-But I can tell you, following the Lune book is going to yield actual legitimate croissants that are gneuinely going to put to shame at least half of what you would buy in most bakeries and cafes in Australia. 
+But I can tell you, following the Lune book is going to yield actual legitimate croissants that are genuinely going to put to shame at least half of what you would buy in most bakeries and cafes in Australia. 
 
 ## First batch of dough
 
@@ -63,7 +63,7 @@ I could tell straight away this batch was going to be better.
 
 When you put the dough on the bench and start working with it, it immediately starts to warm and stick to the bench. If it sticks too much, you risk tearing the dough and/or "popping" the lamination. This has a big effect on the final product and how your layers turn out. I think it might also be how you can get giant big holes in the middle of croissants sometimes too, if you've ever experienced that in a bought croissant. 
 
-In the book, the author specifically says not to use flour to dust your bench when working with the dough, but rather to cool down the room and chill the bench so that you're not introducing any additional flour to the miticulously measured out ingredients.
+In the book, the author specifically says not to use flour to dust your bench when working with the dough, but rather to cool down the room and chill the bench so that you're not introducing any additional flour to the meticulously measured out ingredients.
 
 I appreciate that and love the attention to detail. But for me, in Brisbane with no airconditioning that reaches my kitchen and being really invested in getting this second batch to turn out right, I dusted, and it made life alot easier the second time round. 
 
