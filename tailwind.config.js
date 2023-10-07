@@ -23,6 +23,7 @@ module.exports = {
       'bg-sky-300',
       'bg-yellow-300',
       'bg-emerald-300',
+      'bg-violet-300',
     ]
   },
   theme: {
