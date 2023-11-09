@@ -42,7 +42,7 @@
     </div>
 
 
-    <nuxt-content class="max-w-4xl mx-auto space-y-6" :document="article" />
+    <nuxt-content class="max-w-2xl mx-auto space-y-6" :document="article" />
   </article>
 </template>
 

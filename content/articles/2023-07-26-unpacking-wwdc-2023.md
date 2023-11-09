@@ -1,6 +1,6 @@
 ---
 title: Unpacking WWDC 2023
-bg: bg-orange-300
+bg: bg-rose-300
 createdAt: 2023-07-26
 updatedAt: 2023-10-02
 ---
