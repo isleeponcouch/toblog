@@ -1,5 +1,5 @@
 ---
-title: Mapping out Doctrine association mapping
+title: Mapping out Doctrine Association Mapping
 bg: bg-green-300
 createdAt: 2023-11-09
 updatedAt: 2023-11-09
