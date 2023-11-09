@@ -5,11 +5,15 @@ createdAt: 2023-10-07
 updatedAt: 2023-10-07
 ---
 
-I had never been to a Lune or even knew it was an Australian croissanterie when I pre-ordered the Lune book (Lune: Croissants All Day, All Night) on Amazon. For the longest time I had wanted to make croissants, just as a thought in the back of my mind kind of thing. Then one day when checking out on Amazon I noticed this book in my recommend items and pre-ordered it on a whim.
+I had never been to a Lune or even knew it was an Australian croissanterie when I pre-ordered the Lune book (Lune: Croissants All Day, All Night) on Amazon. 
 
-<img src="/images/posts/lune-book-second-dough-15.jpg" alt="First batch of dough, lime curd cruffins" class="mx-auto" />
+<img src="/images/posts/lune-book.jpeg" alt="Lune: Croissants All Day, All Night" class="mx-auto" />
+
+For the longest time I had wanted to make croissants, just as a thought in the back of my mind kind of thing. Then one day when checking out on Amazon I noticed this book in my recommend items and pre-ordered it on a whim.
 
 It wasn't until it arrived that I read Kate Reid's story and realised this was an Australian business and further still that there was one just 20 minutes drive up the road from me, which I didn't visit until after having baked the lune croissants twice myself at home.
+
+<img src="/images/posts/lune-book-second-dough-15.jpg" alt="First batch of dough, lime curd cruffins" class="mx-auto" />
 
 One of the first things mentioned in the book is that the recipe the book is based around isn't your standard croissant recipe, which you'll notice straight away if you've looked into any others.
 
