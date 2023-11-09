@@ -7,7 +7,7 @@ updatedAt: 2023-11-09
 
 Association mapping in Doctrine is one of those topics that at its core is quite a simple concept, but in practice can be confusing and off-putting.
 
-This likely stems from table relations and related concepts of foreign keys and joins being a somewhat difficult thing to reason about already without then adding in the additional workload of mentally working in the space of an entity object graph while simultaneously mapping back to those relational concepts. 
+This likely stems from table relations and related concepts of foreign keys and joins being a somewhat difficult thing to reason about already without then adding in the additional workload of working in the space of an entity object graph while simultaneously mentaly mapping back to those relational concepts. 
 
 Throw in some new terminology in the form of unidirectional and bidirectional associations, owning side, inversed by and mapped by, and it all seems scarier than it is.
 
@@ -77,7 +77,7 @@ This is an optional step that we could have left off, but by adding this column 
 
 If we were to remove this property from Author, we would have then created a unidirectional association, meaning we could only get a related Author from a Book, and no Books from an Author. 
 
-This concept of a bidirectional association is a kind of nicety given to us by the fact we're working in the object graph space now and not the relational space, so when doctrine retrieves our related data from the database it can setup references for us so we can later have the ease of making calls like `$author->getBooks()`.
+This concept of a bidirectional association is a convenience given to us by the fact we're working in the object graph space now and not the relational space, so when doctrine retrieves our related data from the database it can setup references for us so we can later have the ease of making calls like `$author->getBooks()`.
 
 So let's look at the actual DDL/SQL that Doctrine gives us for creating a concrete schema from the above.
 
@@ -102,7 +102,7 @@ CREATE TABLE `book` (
 
 These were created with `symfony console doctrine:schema:update --dump-sql`
 
-So we've gone from our human readable schema definition, to entities we can use to interact with those data in the object world, back to actual DDL/SQL and we've got the foreign key on the Book table as expected by defining a `ManyToOne` association on Book.
+So we've gone from our human readable schema definition, to entities we can use to interact with those data in the object world, back to actual DDL/SQL.
 
 ## Ownership, inversedBy and mappedBy
 
@@ -119,7 +119,7 @@ And that is where we get the terminology `inversedBy` as seen on the Book entity
 private ?Author $author = null;
 ```
 
-I think of this as the inverse of being an owner is being owned. So our Book is the owner, the inverse side of the ownership relationship is Author. `'books'` refers to the field on Author that references our `Many` Books.
+I think of this as the inverse of being an owner is being owned. So our Book is the owner, the inverse side of the ownership relationship is Author. `books` refers to the field on Author that references our `Many` Books.
 
 On the Author side of the association, the books field is annotated with `mappedBy`:
 
@@ -168,7 +168,7 @@ Self-referencing just means that an entity is referencing itself rather than ano
 - One-To-One
 - Many-To-Many
 
-When we compare the difference between `ManyToOne` and `OneToOne` which I can do by changing the relations on our existing `Author` `Book` association:
+When we compare the difference between `ManyToOne` and `OneToOne` which we can do by changing the relations on our existing `Author` `Book` association.
 
 So this:
 
@@ -180,17 +180,19 @@ private ?Author $author = null;
 Becomes:
 
 ```
-    #[ORM\OneToOne]
-    private ?Author $author = null;
+#[ORM\OneToOne]
+private ?Author $author = null;
 ```
 
 With that in place, the only change that `symfony console doctrine:schema:update --dump-sql` wants to make is:
 
-`ALTER TABLE book DROP INDEX IDX_CBE5A331F675F31B, ADD UNIQUE INDEX UNIQ_CBE5A331F675F31B (author_id);`
+```
+ALTER TABLE book DROP INDEX IDX_CBE5A331F675F31B, ADD UNIQUE INDEX UNIQ_CBE5A331F675F31B (author_id);
+```
 
-Therefore the only difference between a `ManyToOne` and a `OneToOne` is a `UNIQUE INDEX ` which is going to enforce the one to one relationship. So we can think of a `OneToOne` as a `ManyToOne` with that extra restriction.
+Meaning the only difference between a `ManyToOne` and a `OneToOne` is a `UNIQUE INDEX ` which is going to enforce the one to one relationship. So we can think of a `OneToOne` as a `ManyToOne` with that extra restriction.
 
-So for simplicity's sake, we can think of the associations available to us as 
+So for simplicity's sake, we can think of the associations available to us as...
 
 ### 1. Many-To-One 
 - Optional unique index to force the association to be `OneToOne`
