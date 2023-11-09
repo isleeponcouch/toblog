@@ -67,11 +67,13 @@ class Book
 
 Hopefully the above is more or less what you were expecting to see for our entities given the small schema we designed above. If we weren't working with an ORM we'd have likely created similar looking classes at some point to represent the data in each of our author and book tables.
 
-The one thing that might stick out as strange to you at this point, is that we have a reference back to our Books from our Author. But our Author table doesn't have any kind of way of knowing about Books. 
+## Bidirectional and Unidirectional Associations
+
+The one thing that might stick out as strange to you at this point, is that in our Author entity we have a reference back to Books. But our Author table doesn't have any kind of way of knowing about Books.
+
+In Doctrine, this is called a bidirectional association, meaning simply that we can get the associated objects from either side of the association. 
 
 This is an optional step that we could have left off, but by adding this column to our Author we can now easily access all our Author's Books given any instance of Author. 
-
-In Doctrine, this is called a bidirectional association, meaning simply we can get the associated objects from either side of the association. 
 
 If we were to remove this property from Author, we would have then created a unidirectional association, meaning we could only get a related Author from a Book, and no Books from an Author. 
 
@@ -101,6 +103,8 @@ CREATE TABLE `book` (
 These were created with `symfony console doctrine:schema:update --dump-sql`
 
 So we've gone from our human readable schema definition, to entities we can use to interact with those data in the object world, back to actual DDL/SQL and we've got the foreign key on the Book table as expected by defining a `ManyToOne` association on Book.
+
+## Ownership, inversedBy and mappedBy
 
 So why is it optional to have a reference back from Author to Books and not the other way around? Because our Book is the _owning_ side. This might seem counter intuitive and is likely another reason the Doctrine learning curve is a little steep. 
 
