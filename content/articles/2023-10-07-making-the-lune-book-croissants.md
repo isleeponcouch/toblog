@@ -15,9 +15,9 @@ It wasn't until it arrived that I read Kate Reid's story and realised this was a
 
 <img src="/images/posts/lune-book-second-dough-15.jpg" alt="First batch of dough, lime curd cruffins" class="mx-auto" />
 
-One of the first things mentioned in the book is that the recipe the book is based around isn't your standard croissant recipe, which you'll notice straight away if you've looked into any others.
+One of the first things mentioned in the book is that the recipe the book is based around isn't your standard croissant recipe, which you'll notice straight away if you've looked at any others.
 
-The author has put a lot of effort into adapting the crossant making process to something that is achievable at home without compromising to the point that you're making something that is more croissant-like than croissant. 
+The author has put a lot of effort into adapting the croissant making process to something that is achievable at home without compromising to the point that you're making something that is more croissant-like than croissant. 
 
 <img src="/images/posts/lune-book-first-dough-lamination.jpeg" alt="First batch of dough, first bake, shaped" class="mx-auto" />
 
@@ -53,7 +53,7 @@ Here they are baked. They're miniature.
 
 ### First batch of dough, cruffins
 
-I used the leftover dough to make cruffins, the book has a recipe for lemon curd cruffings, we have a lime tree and regularly have more limes than we know what to do with, so these are lime curd.
+I used the leftover dough to make cruffins, the book has a recipe for lemon curd cruffins, we have a lime tree and regularly have more limes than we know what to do with, so these are lime curd.
 
 <img src="/images/posts/lune-book-first-dough-5.jpg" alt="First batch of dough, lime curd cruffins" class="mx-auto" />
 
@@ -65,7 +65,7 @@ I could tell straight away this batch was going to be better.
 
 <img src="/images/posts/lune-book-second-dough-1.jpg" alt="Second batch of dough" class="mx-auto" />
 
-When you put the dough on the bench and start working with it, it immediately starts to warm and stick to the bench. If it sticks too much, you risk tearing the dough and/or "popping" the lamination. This has a big effect on the final product and how your layers turn out. I think it might also be how you can get giant big holes in the middle of croissants sometimes too, if you've ever experienced that in a bought croissant. 
+When you put the dough on the bench and start working with it, it immediately starts to warm and stick to the bench. If it sticks too much, you risk tearing the dough and/or "popping" the lamination. This has a big effect on the final product and how your layers turn out. I think it might also be how you can get giant big holes in the middle of croissants sometimes too, if you've ever experienced that in a store bought croissant. 
 
 In the book, the author specifically says not to use flour to dust your bench when working with the dough, but rather to cool down the room and chill the bench so that you're not introducing any additional flour to the meticulously measured out ingredients.
 
@@ -117,7 +117,7 @@ A giant batch of cruffins. I filled some of these with leftover lime curd and th
 
 As of writing I've made 3 batches of the Lune book croissant dough, which translates to roughly 60 or so croissants or other viennoiserie and a bunch of cruffins (each batch of dough results in 4 seperated parcels of laminated pastry which each make 5 croissants and a cruffin). 
 
-I went into this with fairly limited baking knowledge, but definitely not a complete beginner and I'd say I found it challenging but definitely not impossible.
+I went into this with fairly limited baking knowledge but at least not a total beginner and I'd say I found it challenging but definitely achievable.
 
 The process is at least as much art as it is science and gets easier as you do more batches and get used to the feel of the dough, build the confidence in cutting and shaping and get a feel for the amount of pressure to apply when rolling out.
 

@@ -7,7 +7,7 @@ updatedAt: 2023-11-09
 
 Association mapping in Doctrine is one of those topics that at its core is quite a simple concept, but in practice can be confusing and off-putting.
 
-This likely stems from table relations and related concepts of foreign keys and joins being a somewhat difficult thing to reason about already without then adding in the additional workload of working in the space of an entity object graph while simultaneously mentaly mapping back to those relational concepts. 
+This likely stems from table relations and related concepts of foreign keys and joins being a somewhat difficult thing to reason about already without then adding in the additional workload of working in the space of an entity object graph while simultaneously mentally mapping back to those relational concepts. 
 
 Throw in some new terminology in the form of unidirectional and bidirectional associations, owning side, inversed by and mapped by, and it all seems scarier than it is.
 
