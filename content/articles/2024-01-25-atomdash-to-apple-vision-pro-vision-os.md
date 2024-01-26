@@ -2,27 +2,31 @@
 title: Releasing my chemistry tutor app Atomdash natively for visionOS
 bg: bg-blue-300
 createdAt: 2024-01-25
-updatedAt: 2023-01-25
+updatedAt: 2024-01-25
 ---
 
 In just over a week from now the Apple Vision Pro will launch and along with it version 1.0 of visionOS. This is my account of the process of getting my chemistry tutor app Atomdash ready for this new platform.
 
-From the out set, let me just say, this post will be short. Like a lot of developers, my app ran on the Vision Pro simulator pretty well out of the box in its 'Designed for iPad' state. 
+From the outset, let me just say, this post will be short. Like a lot of developers, my app ran on the Vision Pro simulator pretty well out of the box in its 'Designed for iPad' state. 
 
 If I were happy to accept a bit of ugly UI and a clunky user experience, I more or less could've just let it go out like that. 
 
 But with a relatively small amount of effort, I can have Atomdash native to visionOS from day one.
 
-<img src="/images/posts/atomdash-vision-os-1.png" alt="Atomdash chemistry tutor running in the Apple Vision Pro simulator" class="mx-auto" />
+<img src="/images/posts/atomdash-visionos-1.png" alt="Atomdash chemistry tutor running in the Apple Vision Pro simulator" class="mx-auto" />
 
 
 ## Design for iPad/iPhone vs. Apple Vision
 
 When you open Xcode 15.2, Support Destinations now shows Apple Vision (Designed for iPad) or Apple Vision (Designed for iPad) as a supported destination for your target straight out of the box. If you don't do any specific work to support Apple Vision, your app will run this way on visionOS. If you choose to go with this option, your app will show as designed for iPhone/iPad and retain the normal round square app icon. visionOS natives will have a layered circle icon.
 
+<img src="/images/posts/atomdash-visionos-2.png" alt="Atomdash chemistry tutor running in the Apple Vision Pro simulator" class="mx-auto" />
+
 ## The process
 
-To support visionOS natively, we just add the 'Apple Vision' destination, which will replace the 'Apple Vision (Designed for iPad)' destination.
+To support visionOS natively, we just add the 'Apple Vision' destination, which will replace the 'Apple Vision (Designed for iPad)' destination. From there it's a matter of going through each screen of your app adjusting the UI to work with visionOS and rearranging your app structure to feel more like a visionOS native. 
+
+<img src="/images/posts/atomdash-visionos-3.png" alt="Atomdash chemistry tutor running in the Apple Vision Pro simulator" class="mx-auto" />
 
 ### Hoisting State
 
@@ -45,7 +49,7 @@ If you target less than iOS 17 in your current iOS target, you can wrap those in
 #endif
 ```
 
-<img src="/images/posts/atomdash-vision-os-2.png" alt="Atomdash chemistry tutor running in the Apple Vision Pro simulator" class="mx-auto" />
+<img src="/images/posts/atomdash-visionos-4.png" alt="Atomdash chemistry tutor running in the Apple Vision Pro simulator" class="mx-auto" />
 
 ### UI
 
@@ -54,6 +58,8 @@ In the case of Atomdash, getting the UI ready for visionOS was a combination of 
 I used preprocessor macros because I only had a small handful of UI changes to make. If I had to make more significant changes, or if you do, I would go down the path of creating a separate target for visionOS. Atomdash is reasonably well setup for this kind of architecture with most things already existing in their own frameworks. But in my case, it would have been overkill to create a new target.
 
 Support for tvOS and macOS are on the roadmap for Atomdash, when I get to this work it might make sense to swap out the preprocessor macros for checking for [multiple scene support](https://developer.apple.com/documentation/visionos/presenting-windows-and-spaces) instead.
+
+<img src="/images/posts/atomdash-visionos-5.png" alt="Atomdash chemistry tutor running in the Apple Vision Pro simulator" class="mx-auto" />
 
 ### A note on `.defaultSize(width:height:depth:in:)`
 
@@ -75,7 +81,7 @@ Even though we've added the visionOS supported destination, the binary defaults 
 
 The App Store requires visionOS screenshots at `3840 . 2160` but the visionOS simulator takes screenshots at `2732 . 2048`. I just brought my screenshots into Photoshop and enlarged them without messing up the aspect ratio. My app was approved so this seems to be acceptable.
 
-<img src="/images/posts/atomdash-vision-os-3.png" alt="Atomdash chemistry tutor running in the Apple Vision Pro simulator" class="mx-auto" />
+<img src="/images/posts/atomdash-visionos-6.png" alt="Atomdash chemistry tutor running in the Apple Vision Pro simulator" class="mx-auto" />
 
 ## That's it
 
