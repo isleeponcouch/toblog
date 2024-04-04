@@ -162,13 +162,15 @@ fun FooBar() {
 }
 ```
 
-On initial composition, we get a MutableState for our string "Foo" by calling `mutableStateOf`
+On initial composition, we get a `MutableState` for our string `"Foo"` by calling `mutableStateOf`
 
 We store that in a lambda which `remember` adds to a cache on the Composer object that will be passed into it from its containing composable.
 
 We create a delegate with `by` that makes our MutableState less verbose to work with.
 
-When we change the value of our MutableState from "Foo" to "Bar" we trigger recomposition, when our Composable is recompositioned the composer containing our lambda which contains our MutableState which now holds "Bar" instead of "Foo" is passed back into it and our Text() now shows "Bar" instead of "Foo" too, because our triggering MutableState was remembered instead of being recreated.
+When we change the value of our `MutableState` from `"Foo"` to `"Bar"` we trigger recomposition.
+
+When our Composable is recompositioned the composer containing our lambda which contains our `MutableState` which now holds `"Bar"` instead of `"Foo"` is passed back into it and our `Text()` now shows `"Bar"` instead of `"Foo"` too, because our triggering `MutableState` was `remembered` instead of being recreated.
 
 And while this semi-detailed account still skips over a lot of detail, that's essentially how our state is being handled in Compose. 
 
