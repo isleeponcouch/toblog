@@ -17,7 +17,7 @@
   <article class="m-4 md:m-12">
     <div class="grid md:grid-cols-2 gap-4">
       <div class="text-left font-medium text-white">
-        <a href="" class=""><span class="inline-block p-1 rounded" v-bind:class="article.bg">&crarr;</span> toblog.dev</a>
+        <a href="" class=""><span class="inline-block py-1 px-3 rounded" v-bind:class="article.bg">&crarr;</span> toblog.dev</a>
       </div>
       <div class="text-center md:text-right">
         <!--<p class="md:font-medium text-sm md:text-base">Published {{ formatDate(article.createdAt) }}, last updated {{ formatDate(article.updatedAt) }}</p>-->
