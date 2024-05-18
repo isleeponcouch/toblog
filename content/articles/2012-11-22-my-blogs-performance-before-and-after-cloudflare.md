@@ -1,6 +1,7 @@
 ---
 title: My Blog's Performance Before and After CloudFlare
-bg: bg-gray-300
+bg: bg-gray-600
+decoration: decoration-gray-600
 archived: true
 createdAt: 2012-11-22
 updatedAt: 2012-11-22

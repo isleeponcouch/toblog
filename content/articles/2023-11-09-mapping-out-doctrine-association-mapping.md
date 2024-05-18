@@ -1,6 +1,7 @@
 ---
 title: Mapping out Doctrine Association Mapping
-bg: bg-green-300
+bg: bg-green-600
+decoration: decoration-green-600
 createdAt: 2023-11-09
 updatedAt: 2023-11-09
 ---
@@ -19,7 +20,7 @@ Let's start by working backwards, suppose we have the following schema that we w
 Hydration by the way is just a way of saying reading things out of the database and into an instance of an entity object. As in if we were to have an array of rows from an author table retrieved from a database, looping over each and creating a new instance of Author. Getting data from the database to create our Author with is hydrating Author. This at its simplest is what an ORM does for us, Object Relational Mapping, mapping relational data to objects.
 </div> -->
 
-```
+```php
 author(id, name)
 book(id, author_id, title)
 ```
@@ -28,7 +29,7 @@ In Doctrine, we describe the relationship in the direction from the Entity we're
 
 So let's now create actual Doctrine entities to bring our simple relational schema into the object world.
 
-```
+```php
 #[ORM\Entity(repositoryClass: AuthorRepository::class)]
 class Author
 {
@@ -47,7 +48,7 @@ class Author
 }
 ```
 
-```
+```php
 #[ORM\Entity(repositoryClass: BookRepository::class)]
 class Book
 {
@@ -81,7 +82,7 @@ This concept of a bidirectional association is a convenience given to us by the 
 
 So let's look at the actual DDL/SQL that Doctrine gives us for creating a concrete schema from the above.
 
-```
+```sql
 CREATE TABLE `author` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -89,7 +90,7 @@ CREATE TABLE `author` (
 )
 ```
 
-```
+```sql
 CREATE TABLE `book` (
   `id` int NOT NULL AUTO_INCREMENT,
   `author_id` int DEFAULT NULL,
@@ -114,7 +115,7 @@ Generally, the entity that defines a `ManyToOne` on itself is always the owning 
 
 And that is where we get the terminology `inversedBy` as seen on the Book entity above, repeated below for clarity: 
 
-```
+```php
 #[ORM\ManyToOne(inversedBy: 'books')]
 private ?Author $author = null;
 ```
@@ -123,7 +124,7 @@ I think of this as the inverse of being an owner is being owned. So our Book is 
 
 On the Author side of the association, the books field is annotated with `mappedBy`:
 
-```
+```php
 #[ORM\OneToMany(mappedBy: 'author', targetEntity: Book::class)]
 private Collection $books;
 ```
@@ -172,21 +173,21 @@ When we compare the difference between `ManyToOne` and `OneToOne` which we can d
 
 So this:
 
-```
+```php
 #[ORM\ManyToOne]
 private ?Author $author = null;
 ```
 
 Becomes:
 
-```
+```php
 #[ORM\OneToOne]
 private ?Author $author = null;
 ```
 
 With that in place, the only change that `symfony console doctrine:schema:update --dump-sql` wants to make is:
 
-```
+```sql
 ALTER TABLE book DROP INDEX IDX_CBE5A331F675F31B, ADD UNIQUE INDEX UNIQ_CBE5A331F675F31B (author_id);
 ```
 

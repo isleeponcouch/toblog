@@ -1,6 +1,7 @@
 ---
 title: Getting Started With SpriteKit
-bg: bg-gray-300
+bg: bg-gray-600
+decoration: decoration-gray-600
 archived: true
 createdAt: 2015-02-14
 updatedAt: 2015-02-14

@@ -1,6 +1,7 @@
 ---
 title: Zombies, Helping you not Send Messages to Deallocated Objects
-bg: bg-gray-300
+bg: bg-gray-600
+decoration: decoration-gray-600
 archived: true
 createdAt: 2013-01-19
 updatedAt: 2013-01-19

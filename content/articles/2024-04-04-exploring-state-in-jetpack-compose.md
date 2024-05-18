@@ -1,6 +1,7 @@
 ---
 title: Exploring State in Jetpack Compose
-bg: bg-indigo-300
+bg: bg-rose-600
+decoration: decoration-rose-600
 createdAt: 2024-04-04
 updatedAt: 2024-04-04
 ---

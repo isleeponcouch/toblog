@@ -1,6 +1,7 @@
 ---
 title: I made a periodic table app and released it to the App Store
-bg: bg-indigo-300
+bg: bg-indigo-600
+decoration: decoration-indigo-600
 archived: false
 createdAt: 2023-07-01
 updatedAt: 2023-10-04

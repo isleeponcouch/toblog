@@ -1,6 +1,7 @@
 ---
 title: New blog stack with NuxtJS, Content and Tailwind
-bg: bg-green-300
+bg: bg-green-600
+decoration: decoration-green-600
 createdAt: 2022-05-18
 updatedAt: 2022-07-26
 ---

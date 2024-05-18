@@ -1,6 +1,7 @@
 ---
 title: Releasing my chemistry tutor app Atomdash natively for visionOS
-bg: bg-blue-300
+bg: bg-blue-600
+decoration: decoration-blue-600
 createdAt: 2024-01-25
 updatedAt: 2024-01-25
 ---
@@ -36,14 +37,14 @@ This will mean refactoring your codebase so those UI elements can stand alone if
 
 To get access to openWindow and dismissWindow, bring them in from the environment:
 
-```
+```swift
 @Environment(\.openWindow) private var openWindow
 @Environment(\.dismissWindow) private var dismissWindow
 ```
 
 If you target less than iOS 17 in your current iOS target, you can wrap those in the `#if os()` macro:
 
-```
+```swift
 #if os(visionOS)
 // do a visionOS thing 🤘🏻
 #endif

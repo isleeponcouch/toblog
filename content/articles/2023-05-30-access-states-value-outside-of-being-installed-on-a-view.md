@@ -1,6 +1,7 @@
 ---
 title: Accessing State's value outside of being installed on a View. This will result in a constant Binding of the initial value and will not update.
-bg: bg-blue-300
+bg: bg-blue-600
+decoration: decoration-blue-600
 createdAt: 2023-05-30
 updatedAt: 2023-05-30
 ---

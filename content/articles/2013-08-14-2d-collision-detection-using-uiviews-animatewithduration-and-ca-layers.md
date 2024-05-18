@@ -1,6 +1,7 @@
 ---
 title: 2D Collision Detection Using UIView's animateWithDuration and CA Layers
-bg: bg-gray-300
+bg: bg-gray-600
+decoration: decoration-gray-600
 archived: true
 createdAt: 2013-08-14
 updatedAt: 2013-08-14

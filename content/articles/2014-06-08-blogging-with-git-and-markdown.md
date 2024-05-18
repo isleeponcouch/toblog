@@ -1,6 +1,7 @@
 ---
 title: Blogging With Git and Markdown
-bg: bg-gray-300
+bg: bg-gray-600
+decoration: decoration-gray-600
 archived: true
 createdAt: 2014-06-08
 updatedAt: 2014-06-08

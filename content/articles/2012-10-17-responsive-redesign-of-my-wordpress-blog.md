@@ -1,6 +1,7 @@
 ---
 title: Responsive Redesign of my Wordpress Blog
-bg: bg-gray-300
+bg: bg-gray-600
+decoration: decoration-gray-600
 archived: true
 createdAt: 2012-10-17
 updatedAt: 2012-10-17

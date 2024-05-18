@@ -1,6 +1,7 @@
 ---
 title: Caching Results on the Frontend With Local Storage
-bg: bg-gray-300
+bg: bg-gray-600
+decoration: decoration-gray-600
 archived: true
 createdAt: 2013-11-11
 updatedAt: 2013-11-11

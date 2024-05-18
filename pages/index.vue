@@ -1,13 +1,16 @@
 <template>
   <div class="m-1 md:m-12">
       <div class="text-center">
-        <p class="my-2 text-lg font-medium">👋 Hi, I'm Tobias and this is my blog where I write mostly about my adventures as an iOS engineer.</p>
+        <p class="my-2 text-lg text-gray-300 font-medium">👋 Hi, I'm Tobias and this is my blog where I write mostly about software development.</p>
+        <p class="my-2 text-lg text-gray-300 font-medium">🇦🇺 I'm based in Brisbane Australia</p>
+        <p class="my-2 text-lg text-gray-300 font-medium">✉️ If you would like to talk to me about anything I've written here, please email tobias at sensortree dot au</p>
       </div>
     <ul class="my-10">
-      <li v-for="article of articles" :key="article.slug" class="p-4 md:p-12 text-white font-thin my-1 md:my-3" v-bind:class="article.bg">
+      <li v-for="article of articles" :key="article.slug" class="p-4 md:p-12 text-white font-thin my-1 md:my-3">
         <NuxtLink :to="{ name: 'slug', params: { slug: article.slug } }">
-          <div>
-            <h4 class="max-w-4xl mx-auto text-xl md:text-4xl text-thin text-center">{{ article.title }}</h4>
+          <div class="text-center">
+            <h4 class="max-w-4xl mx-auto text-lg md:text-2xl text-thin inline-block p-2 mb-2 rounded underline" v-bind:class="article.decoration">{{ article.title }}</h4>
+            <p>{{ formatDate(article.createdAt) }}</p>
           </div>
         </NuxtLink>
       </li>
@@ -19,12 +22,17 @@
   export default {
     async asyncData({ $content, params }) {
       const articles = await $content('articles')
-        .only(['title', 'slug', 'bg'])
+        .only(['title', 'slug', 'bg', 'decoration', 'createdAt'])
         .sortBy('createdAt', 'desc')
         .fetch()
 
       return {
         articles
+      }
+    }, methods: {
+      formatDate(date) {
+          const options = { year: 'numeric', month: 'long', day: 'numeric' }
+          return new Date(date).toLocaleDateString('en', options)
       }
     }
   }

@@ -1,6 +1,7 @@
 ---
 title: First Look at RedBeanPHP 
-bg: bg-gray-300
+bg: bg-gray-600
+decoration: decoration-gray-600
 archived: true
 createdAt: 2012-07-10
 updatedAt: 2012-07-10

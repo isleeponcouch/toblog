@@ -1,6 +1,7 @@
 ---
 title: Logging Frontend Errors With Your Usual CodeIgniter Logging
-bg: bg-gray-300
+bg: bg-gray-600
+decoration: decoration-gray-600
 archived: true
 createdAt: 2013-09-21
 updatedAt: 2013-09-21

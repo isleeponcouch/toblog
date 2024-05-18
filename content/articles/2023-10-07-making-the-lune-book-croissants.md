@@ -1,6 +1,7 @@
 ---
 title: Making the Lune Book Croissants
-bg: bg-sky-300
+bg: bg-fuchsia-600
+decoration: decoration-fuchsia-600
 createdAt: 2023-10-07
 updatedAt: 2023-10-07
 ---

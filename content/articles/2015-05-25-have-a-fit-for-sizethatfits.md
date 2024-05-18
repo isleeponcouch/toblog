@@ -1,6 +1,7 @@
 ---
 title: Have a fit for sizeThatFits
-bg: bg-gray-300
+bg: bg-gray-600
+decoration: decoration-gray-600
 archived: true
 createdAt: 2015-05-25
 updatedAt: 2015-05-25
