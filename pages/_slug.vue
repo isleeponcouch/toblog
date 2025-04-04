@@ -17,7 +17,7 @@
   <article class="m-4 md:m-12">
     <div class="grid md:grid-cols-2 gap-4">
       <div class="text-left font-medium text-white">
-        <a href="" class=""><span class="inline-block py-1 px-3 rounded align-middle text-center" v-bind:class="article.bg">&crarr;</span> umount.dev</a>
+        <a href="https://umount.dev"><span class="inline-block py-1 px-3 rounded align-middle text-center" v-bind:class="article.bg">&crarr;</span> umount.dev</a>
       </div>
       <div class="text-center md:text-right">
         <!--<p class="md:font-medium text-sm md:text-base">Published {{ formatDate(article.createdAt) }}, last updated {{ formatDate(article.updatedAt) }}</p>-->

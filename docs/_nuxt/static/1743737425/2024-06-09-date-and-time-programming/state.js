@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1743737425",layout:"default",error:a,serverRendered:true,routePath:"\u002F2024-06-09-date-and-time-programming",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"dae5d07c"}}}}(null));

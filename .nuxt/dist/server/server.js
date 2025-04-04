@@ -104,7 +104,7 @@ module.exports =
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "//umount.dev/_nuxt/";
+/******/ 	__webpack_require__.p = "/_nuxt/";
 /******/
 /******/ 	// uncaught error handler for webpack runtime
 /******/ 	__webpack_require__.oe = function(err) {
@@ -1399,7 +1399,7 @@ const emptyFn = () => {};
 external_vue_default.a.use(external_vue_router_default.a);
 const routerOptions = {
   mode: 'history',
-  base: '//umount.dev/',
+  base: '/',
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior: router_scrollBehavior,
@@ -2392,7 +2392,7 @@ async function createApp(ssrContext, config = {}) {
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
     head: {
-      "title": "umount.dev",
+      "title": "toblog.dev",
       "htmlAttrs": {
         "lang": "en"
       },
@@ -2621,7 +2621,7 @@ const createNext = ssrContext => opts => {
   }
   let fullPath = Object(external_ufo_["withQuery"])(opts.path, opts.query);
   const $config = ssrContext.nuxt.config || {};
-  const routerBase = $config._app && $config._app.basePath || '//umount.dev/';
+  const routerBase = $config._app && $config._app.basePath || '/';
   if (!fullPath.startsWith('http') && routerBase !== '/' && !fullPath.startsWith(routerBase)) {
     fullPath = Object(external_ufo_["joinURL"])(routerBase, fullPath);
   }

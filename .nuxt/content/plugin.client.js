@@ -32,7 +32,7 @@ export default (ctx, inject) => {
     }
     mock.fetch = async () => {
       const database = await fetch(
-        `//umount.dev/_nuxt/content/db-${dbHash}.json`
+        `/_nuxt/content/db-${dbHash}.json`
       ).then(res => res.json())
       $$content = (await loadContent()).default(database)
       let query = $$content(...contentArgs)
