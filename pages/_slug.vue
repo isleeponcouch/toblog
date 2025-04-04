@@ -20,7 +20,7 @@
         <a href="https://umount.dev"><span class="inline-block py-1 px-3 rounded align-middle text-center" v-bind:class="article.bg">&crarr;</span> umount.dev</a>
       </div>
       <div class="text-center md:text-right">
-        <!--<p class="md:font-medium text-sm md:text-base">Published {{ formatDate(article.createdAt) }}, last updated {{ formatDate(article.updatedAt) }}</p>-->
+        <!--<p class="md:font-medium text-sm md:text-base mx-4">Published {{ formatDate(article.createdAt) }}, last updated {{ formatDate(article.updatedAt) }}</p>-->
       </div>
     </div>
     <header class="p-4 py-16 md:p-12 md:py-40 text-center text-white my-10 space-y-20" v-bind:class="">
