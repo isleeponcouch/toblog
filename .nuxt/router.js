@@ -4,8 +4,8 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _4442e9e2 = () => interopDefault(import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
 const _3a8d7be0 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _4442e9e2 = () => interopDefault(import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
 const _3dfabe70 = () => interopDefault(import('../pages/_slug.vue' /* webpackChunkName: "pages/_slug" */))
 
 const emptyFn = () => {}
@@ -14,19 +14,19 @@ Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: '/',
+  base: '//tobigu.github.io/',
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
 
   routes: [{
-    path: "/blog/:slug?",
-    component: _4442e9e2,
-    name: "blog-slug"
-  }, {
     path: "/",
     component: _3a8d7be0,
     name: "index"
+  }, {
+    path: "/blog/:slug?",
+    component: _4442e9e2,
+    name: "blog-slug"
   }, {
     path: "/:slug",
     component: _3dfabe70,
