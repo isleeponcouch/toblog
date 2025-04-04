@@ -14,7 +14,7 @@ Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: '//tobigu.github.io/',
+  base: '//umount.dev/',
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,

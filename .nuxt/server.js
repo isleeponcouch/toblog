@@ -39,7 +39,7 @@ const createNext = ssrContext => (opts) => {
   }
   let fullPath = withQuery(opts.path, opts.query)
   const $config = ssrContext.nuxt.config || {}
-  const routerBase = ($config._app && $config._app.basePath) || '//tobigu.github.io/'
+  const routerBase = ($config._app && $config._app.basePath) || '//umount.dev/'
   if (!fullPath.startsWith('http') && (routerBase !== '/' && !fullPath.startsWith(routerBase))) {
     fullPath = joinURL(routerBase, fullPath)
   }
