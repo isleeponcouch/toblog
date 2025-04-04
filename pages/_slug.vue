@@ -26,8 +26,8 @@
     <header class="p-4 py-16 md:p-12 md:py-40 text-center text-white my-10 space-y-20" v-bind:class="">
       <div class="max-w-4xl mx-auto">
   	   <h1 class="text-xl md:text-4xl font-thin mb-4">{{ article.title }}</h1>
-       <p class="md:font-medium text-sm md:text-base rounded inline-block p-1" v-if="article.createdAt == article.updatedAt" v-bind:class="article.bg">Published {{ formatDate(article.createdAt) }}</p>
-       <p class="md:font-medium text-sm md:text-base rounded inline-block p-1" v-if="article.createdAt != article.updatedAt" v-bind:class="article.bg">First published {{ formatDate(article.createdAt) }}, updated {{ formatDate(article.updatedAt) }}</p>
+       <p class="md:font-medium text-sm md:text-base rounded inline-block p-1 px-4" v-if="article.createdAt == article.updatedAt" v-bind:class="article.bg">Published {{ formatDate(article.createdAt) }}</p>
+       <p class="md:font-medium text-sm md:text-base rounded inline-block p-1 px-4" v-if="article.createdAt != article.updatedAt" v-bind:class="article.bg">First published {{ formatDate(article.createdAt) }}. Updated {{ formatDate(article.updatedAt) }}</p>
       </div>
     </header>
     <div v-if="article.archived" class="max-w-2xl mx-auto space-y-6 border-t-4 rounded-b px-4 py-3 shadow-md my-3 bg-gray-600" role="alert">
