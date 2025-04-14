@@ -8,13 +8,13 @@ exports.modules = {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=23ded82c
+// CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=8bf9b30e
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', {
     staticClass: "m-1 md:m-12"
-  }, [_vm._ssrNode("<div class=\"text-center\"><p class=\"my-2 text-lg text-gray-300 font-medium\">👋 Hi, I'm Tobias and this is my blog where I write mostly about native mobile and backend web development.</p> <p class=\"my-2 text-lg text-gray-300 font-medium\">🤷‍♂️ This is mostly just a place for me to think out loud, though I try to write in a way that others might find useful.</p> <p class=\"my-2 text-lg text-gray-300 font-medium\">🇦🇺 I'm based in Brisbane, Australia.</p></div> "), _vm._ssrNode("<ul class=\"my-10\">", "</ul>", _vm._l(_vm.articles, function (article) {
+  }, [_vm._ssrNode("<div class=\"text-center\"><p class=\"my-2 text-lg text-gray-300 font-medium\">👋 Hi, I'm Toby and this is my blog where I write mostly about programming.</p> <p class=\"my-2 text-lg text-gray-300 font-medium\">🤷‍♂️ This is really just a place for me to think out loud, though I try to write in a way that others might find useful.</p> <p class=\"my-2 text-lg text-gray-300 font-medium\">🇦🇺 I'm based in Brisbane, Australia.</p></div> "), _vm._ssrNode("<ul class=\"my-10\">", "</ul>", _vm._l(_vm.articles, function (article) {
     return _vm._ssrNode("<li class=\"p-4 md:p-12 text-white font-thin my-1 md:my-3\">", "</li>", [_c('NuxtLink', {
       attrs: {
         "to": {
@@ -34,7 +34,7 @@ var render = function render() {
 };
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=23ded82c
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=8bf9b30e
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js
 /* harmony default export */ var lib_vue_loader_options_pagesvue_type_script_lang_js = ({

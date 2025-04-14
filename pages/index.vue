@@ -1,8 +1,8 @@
 <template>
   <div class="m-1 md:m-12">
       <div class="text-center">
-        <p class="my-2 text-lg text-gray-300 font-medium">👋 Hi, I'm Tobias and this is my blog where I write mostly about native mobile and backend web development.</p>
-        <p class="my-2 text-lg text-gray-300 font-medium">🤷‍♂️ This is mostly just a place for me to think out loud, though I try to write in a way that others might find useful.</p>
+        <p class="my-2 text-lg text-gray-300 font-medium">👋 Hi, I'm Toby and this is my blog where I write mostly about programming.</p>
+        <p class="my-2 text-lg text-gray-300 font-medium">🤷‍♂️ This is really just a place for me to think out loud, though I try to write in a way that others might find useful.</p>
         <p class="my-2 text-lg text-gray-300 font-medium">🇦🇺 I'm based in Brisbane, Australia.</p>
       </div>
     <ul class="my-10">

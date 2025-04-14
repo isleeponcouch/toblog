@@ -2,8 +2,8 @@
 title: Deleting LinkedIn
 bg: bg-sky-600
 decoration: decoration-sky-600
-createdAt: 2025-04-14
-updatedAt: 2025-04-14
+createdAt: 2025-04-09
+updatedAt: 2025-04-09
 ---
 
 In 2025, you can likely benefit more from removing a piece of technology from your life rather than introducing something meant to improve it. 
