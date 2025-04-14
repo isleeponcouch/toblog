@@ -4,7 +4,7 @@ import LokiFullTextSearch from '@lokidb/full-text-search'
 
 LokiFullTextSearch.register()
 
-const dirs = ["/","/articles"]
+const dirs = ["/","/articles","/articles/_wip"]
   let db, items
 
 const $content = function () {
