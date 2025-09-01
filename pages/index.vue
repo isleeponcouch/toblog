@@ -4,6 +4,7 @@
         <p class="my-2 text-lg text-gray-300 font-medium">👋 Hi, I'm Toby and this is my blog where I write mostly about programming.</p>
         <p class="my-2 text-lg text-gray-300 font-medium">🤷‍♂️ This is really just a place for me to think out loud, though I try to write in a way that others might find useful.</p>
         <p class="my-2 text-lg text-gray-300 font-medium">🇦🇺 I'm based in Brisbane, Australia.</p>
+        <p class="my-2 text-lg text-gray-300 font-medium">📱 See my portfolio of apps built as an indie dev at <a href="https://sensortree.au">sensortree.au</a></p>
       </div>
     <ul class="my-10">
       <li v-for="article of articles" :key="article.slug" class="p-4 md:p-12 text-white font-thin my-1 md:my-3">
