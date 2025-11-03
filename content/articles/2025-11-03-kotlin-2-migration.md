@@ -1,7 +1,7 @@
 ---
 title: Kotlin 2 Migration
 bg: bg-blue-600
-decoration: decoration-gray-600
+decoration: decoration-blue-600
 archived: false
 createdAt: 2025-11-03
 updatedAt: 2025-11-03
