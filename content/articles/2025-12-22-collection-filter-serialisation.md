@@ -1,6 +1,6 @@
 ---
 title: Be careful returning serialized responses from arrays and Collections directly
-bg: bg-blue-600
+bg: bg-rose-600
 decoration: decoration-rose-600
 archived: false
 createdAt: 2025-12-22
@@ -45,15 +45,13 @@ To:
 ]
 ```
 
-Which just isn't what the downstream client was expecting at all. Of course, it only happened some of the time. Which is whemn the above `getThinglets()` method had filtered out results, and those results were from anywhere but the very end of the collection.
+Which just isn't what the downstream client was expecting at all. Of course, it only happened some of the time. Which is when the above `getThinglets()` method had filtered out results, and those results were from anywhere but the very end of the collection.
 
 Long story short, it came down to a kind of esoteric functioning of `json_encode` with matching behaviour in the Symfony Serializer component:
 
-```
-When encoding an array, if the keys are not a continuous numeric sequence starting from 0, all keys are encoded as strings, and specified explicitly for each key-value pair.
-```
+___When encoding an array, if the keys are not a continuous numeric sequence starting from 0, all keys are encoded as strings, and specified explicitly for each key-value pair.___
 
-So once a Thinglet got filtered out of the array, it was no longer sequential, and they keys get added back in as strings, which gives the above unexpected data structure with the string encoded key mapping to the object we want.
+So once a Thinglet got filtered out of the array, it was no longer sequential, and the keys get added back in as strings, which gives the above unexpected data structure with the string encoded key mapping to the object we want.
 
 The below is some code I knocked together to reproduce the issue.
 
