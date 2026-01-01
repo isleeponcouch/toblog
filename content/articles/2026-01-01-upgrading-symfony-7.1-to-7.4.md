@@ -30,7 +30,7 @@ I'm jumping through a few minor releases here to get to the 7.4 LTS on my path t
 
 ## csrf.yaml + Stateless CSRF from 7.2
 
-I didn't hace a `csrf.yaml` at all previously
+I didn't have a `csrf.yaml` at all previously
 
 [How Does Stateless CSRF Work?](https://symfony.com/blog/new-in-symfony-7-2-stateless-csrf#how-does-stateless-csrf-work)
 
