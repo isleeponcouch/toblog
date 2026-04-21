@@ -9,7 +9,7 @@ updatedAt: 2026-04-08
 
 The last few months of my life as a software engineer working primarily on my own SaaS product have been chaotic. I am in serious need of taking a minute to sit down with my thoughts, to think through the different workflows I've adopted just this year alone, and how my work is changing, how the entire industry is changing, what that looks like for me, and how I feel about it.
 
-And it's important that I do, because the pace of change this year to my workflows and to the products I work on has been so intense that I'm losing track of the permutations. Just as a I get used to one model, one harness, a technique, there's seemingly something new to move to and each time I see improvements that are worth changing for.
+And it's important that I do, because the pace of change this year to my workflows and to the products I work on has been so intense that I'm losing track of the permutiations. Just as a I get used to one model, one harness, a technique, there's seemingly something new to move to and each time I see improvements that are worth changing for.
 
 Going forward I feel like dev logs are going to become much more important not just for me but for every professional software engineer. When our code and tools are moving at a pace which becomes hard to keep up with, our dev logs that work at the speed of our brains and ground us in our evolving thought processes are going to become one of those most valuable tools we can implement.
 
@@ -21,7 +21,7 @@ My journey to adopting agentic coding practices into my daily work have followed
 
 Circa 2023 when ChatGPT was having its moment I started essentially just 'playing' with ChatGPT in the browser. The first thing I did was give it a mock coding interview where I just threw coding interview questions at it and watched as it mostly did a pretty good job at answering. I really didn't touch it again for months after this until one day I found myself working alone and really feeling like I just wanted a sounding board to talk about a project.
 
-This was really the early stages of me introducing AI into my work. The thought of actually using its output in production code was still totally off limits to me, back then we didn't even really know what the copyright situation would be, if we were even really 'allowed' to use its output. 
+This was really the early stages of me introducing AI into my work. The thought of actually using its output in production code was still totally offlimits to me, back then we didn't even really know what the copyright situation would be, if we were even really 'allowed' to use its output. 
 
 2. ChatGPT copy and paste
 
@@ -29,9 +29,9 @@ I think it was around when 4 was released and the first 'this is it, we're cooke
 
 Even that was a pretty good time saver and very akin to the kind of work I'd have given to a junior developer on previous teams. It was still far from perfect at this stage. Most things still needed at least minor rework. But I was saving time and I could see this was going to be something. I think I thought at this stage this is as good as it would get, but even so, it had its place.
 
-3. GitHub Copilot
+3. Github Copilot
 
-I briefly subscribed to Copilot and used the plugin inside IntelliJ. I got really varied results where sometimes it would work and save me some time, but most of the time I found it was auto-completing absolute garbage that was just an annoyance to dismiss and that the chat was just really clunky.
+I briefly subscribed to Copilot and used the plugin inside IntelliJ. I got really varied results where sometimes it would work and save me some time, but most of the time I found it was autocompleting absolute garbage that was just an annoyance to dismiss and that the chat was just really clunky.
 
 I actually went back to #2 for some time after this, ChatGPT copy and paste.
 
@@ -43,17 +43,17 @@ It was the agentic chat mode in Jetbrains AI using Junie where I went from farmi
 
 5. OpenAI Codex, GPT-5.3-Codex and GPT-5.4
 
-Without thinking much of it, somewhere in between using JBAI and Junie for most things, I decided to try the OpenAI Codex macOS app. I didn't think much of it at the time, I really just wanted to see what it was after reading about is release.
+Without thinking much of it, somewhere inbetween using JBAI and Junie for most things, I decided to try the OpenAI Codex macOS app. I didn't think much of it at the time, I really just wanted to see what it was after reading about is release.
 
-But it's changed my workflow again. I now barely open a full blown IDE (at least for web development, Android and iOS both pretty much require their respective development environments without significant effort invested in purposely avoiding it.) Most work starts in Codex, is tweaked, and then reviewed in GitHub.
+But it's changed my workflow again. I now barely open a full blown IDE (at least for web development, Android and iOS both pretty much require their respective development environments without significant effort invested in purposely avoiding it.) Most work starts in Codex, is tweaked, and then reviewed in Github.
 
-6. Codex, Claude Code, Dispatch, Claude PR action in GitHub
+6. Codex, Claude Code, Dispatch, Claude PR action in Github
 
-This is where I am now. I have pro/max plans and API plans with OpenAI and Anthropic. I've cancelled my subscription to Junie/JBAI (and to PHP Storm, but more on that another time)
+This is where I am now. I have pro/max plans and API plans with OpenAI and Anthropic. I've cancelled my subscription to Junie/JBAI (and to PHPStorm, but more on that another time)
 
 My workflow is the same as in #5 but I sometimes use Claude instead of Codex. I will reach for Codex with GPT-5.4 at this stage, that will likely change. But for now I'm finding it much more capable at most things. I will however opt for Claude Code for UI related tasks, particularly front-end web. I don't know why but Claude just does a much better job at UI, it will usually produce something much more aesthetic by default, compared to Codex's utilitarian UI design style.
 
-I also have a GitHub action setup to @ Claude into the PR conversation and get a review. I don't use this on every PR, but for larger changes or changes that are higher stakes, I'll @Claude in.
+I also have a Github action setup to @ Claude into the PR conversation and get a review. I don't use this on every PR, but for larger changes or changes that are higher stakes, I'll @claude in.
 
 I have a fairly extensive set of guardrails in place for my main project that was originally written as a Codex skill and that I've brought into Claude as well. I've also made (using Codex) a project specific `prerelease.sh` that runs my units, end to end tests, linters and package vulnerability scans and echos out in an ultra minimal context window friendly format.
 
@@ -63,25 +63,25 @@ Sometimes I will use worktrees, but having gone through an initial phase of usin
 
 I have a reasonably large B2B2C SaaS that is my main day to day project. Most of the learning I have done with AI has been on this project. Suffice to say there's been a lot of branches and worktrees that have never made it off my laptop.
 
-Before I started committing agent written code to this codebase it was a 2 year old project with many established patterns, over 650 handwritten unit and application tests, and many pages of inline documentation. 
+Before I started commiting agent written code to this codebase it was a 2 year old project with many established patterns, over 650 handwritten unit and application tests, and many pages of inline documentation. 
 
 The inlining of the documentation is just something I got lucky with. I wanted to move away from keeping information in Confluence, as a one person team there wasn't much benefit to it, having a `docs` directory full of `md` files actually just worked better for me. As it turns out, this inlining of documentation works great for agentic development.
 
-Because this was a fairly large codebase going in, with established patterns to copy, an existing testing framework I had written by hand and trusted, with inline documentation to boot – I think I saw value very early on in agentic development.
+Because this was a fairly large codebase going in, with established patterns to copy, an existing testing framework I had written by hand and trusted, with inline documention to boot – I think I saw value very early on in agentic development.
 
 Now that I've combined this with a combination of guardrail skills and codebase specific tools that have been written by agents for agents (compressed context window aware output), I'm regularly getting really good results the first time from agents.
 
 ## Psychology of change
 
-If you've been a software engineer for a long time. If it's part of your identity. If you've spent a large part of your life caring about code, code quality, and architecture. If there's books about code quality and how to be a better software engineer on your shelf. If you've ever considered code to be art. If this is your craft. Then there's no way you've escaped some kind of psychological toll as our industry changes so drastically and at a pace that feels almost instantaneous and is trending towards our skill set being a lot less valued by the world than it was mere months ago.
+If you've been a software engineer for a long time. If it's part of your identity. If you've spent a large part of your life caring about code, code quality, and architecture. If there's books about code quality and how to be a better software engineer on your shelf. If you've ever considereed code to be art. If this is your craft. Then there's no way you've escaped some kind of psychological toll as our industry changes so drastically and at a pace that feels almost instantaneous and is trending towards our skillset being a lot less valued by the world than it was mere months ago.
 
-During this time I've been observing those around me. I've watched all level of engineer working across different stacks and industries go through the inevitable stages of acceptance. First AI was cool but mostly useless. Then it was a better auto complete. Then it was a good way to fill in a method signature or write a unit test. Then it was trying out various combinations of models and harnesses, still not being convinced, until one day the right model and harness combination clicked and they could see what everybody was seeing. I've seen this exact process play out multiple times now, even with the kind of engineer I thought would never accept it.
+During this time I've been observing those around me. I've watched all level of engineer working across different stacks and industries go through the inevetable stages of acceptance. First AI was cool but mostly useless. Then it was a better autocomplete. Then it was a good way to fill in a method signature or write a unit test. Then it was trying out various combinations of models and harnesses, still not being convinced, until one day the right model and harness combination clicked and they could see what everybody was seeing. I've seen this exact process play out multiple times now, even with the kind of engineer I thought would never accept it.
 
 My own expectation of what I can get done in a day has changed drastically. Things I would have easily accepted would be a fortnight or months long epic are now done in a day or two. These days if I don't get multiple of these kinds of jobs done in a day, I'll usually feel unproductive.
 
-A thought I am still working through myself is what is my job now. I am ultimately still a software engineer, even with all this extra productivity, I still don't see this work as something that can be done without a strong technical background. Though with that being said, I do believe there is a large subset of software engineering work that is now gone; things like building MVP's for non-technical entrepreneurs as just one very obvious example.
+A thought I am still working through myself is what is my job now. I am ultimately still a software engineer, even with all this extra productivity, I still don't see this work as something that can be done without a strong technical background. Though with that being said, I do believe there is a large subset of software engineering work that is now gone; things like building MVPs for non-technical entrepreneurs as just one very obvious example.
 
-Regardless of any argument about the value of LLMs and SWE going forward, we can't change the perception society has on software engineers now. The value of the craft has been diminished in the eyes of the world. That's something that's going to change how we feel about ourselves, regardless of how true it is or isn't. 
+Regardless of any argument about the value of LLMs and SWE going forward, we can't change the perception society has on software engineers now. The value of the craft has been deminished in the eyes of the world. That's something that's going to change how we feel about ourselves, regardless of how true it is or isn't. 
 
 ## Claude has one-shotted my brain
 
@@ -95,9 +95,9 @@ The same thing happened when I start using refactoring tools of the IDE. Changin
 
 You can see where I'm going here. Claude has one-shotted my brain for most programming tasks. If you cut my access to all of these models tomorrow and forced me to do my work by hand, of course I could do it. But it would feel exponentially harder. I'd feel the same as if you asked me to mow my lawn with a pair of scissors. I could do it, but the whole time my brain would be consumed with the thought of how unnecessary this is and how much more productive I would be if with my lawn mower.
 
-This is the sad part. Coding is something I genuinely enjoy. The reason I pursued this career is because it felt like getting paid to play. That's not to say I don't enjoy it anymore, I definitely still do. However I think the way I think about and feel about coding now is likely similar to what somebody who worked in Assembly felt when higher level languages entered the scene. Yes – you could still go on writing Assembly, in fact in cases you have no choice, but for the most part, why would you. In fact doing so would just be an unprofessional choice for most projects. This is what writing code by hand feels like now. There are times when you still need to, but for the most part you don't have to anymore, and we're already beginning to see that to remain competitive in the professional market, you'll have to start with AI; only dropping back to handwritten code when the agent doesn't quite get it right, like a systems developer dropping back to Assembly when that one thing needs to be closer to the metal.
+This is the sad part. Coding is something I genuinely enjoy. The reason I persued this career is because it felt like getting paid to play. That's not to say I don't enjoy it anymore, I definitely still do. However I think the way I think about and feel about coding now is likely similar to what somebody who worked in Assembly felt when higher level languages entered the scene. Yes – you could still go on writing Assembly, in fact in cases you have no choice, but for the mostpart, why would you. In fact doing so would just be an unprofessional choice for most projects. This is what writing code by hand feels like now. There are times when you still need to, but for the most part you don't have to anymore, and we're already beginning to see that to remain competitive in the professional market, you'll have to start with AI; only dropping back to handwritten code when the agent doesn't quite get it right, like a systems developer dropping back to Assembly when that one thing needs to be closer to the metal.
 
-This has happened before with the framework revolution. Before there was a new full stack web framework every two weeks, developers would just write each application from scratch, maybe bringing along a collection of snippets or utility files that would get copied and pasted across projects. For a time, that was a completely acceptable way of working. But once frameworks showed their value, you couldn't reasonably start a professional project without using one. The time investment needed to work without one and the risk of not benefiting from mature components is just too great for the vast majority of projects (we're going to ignore big tech here because that's the exception that proves the rule).
+This has happened before with the framework revolution. Before there was a new full stack web framework every two weeks, developers would just write each application from scratch, maybe bringing along a collection of snippets or utility files that would get copied and pasted across projects. For a time, that was a completely acceptable way of working. But once frameworks showed their value, you couldn't reasonably start a professional project without using one. The time investment needed to work without one and the risk of not benefitting from mature components is just too great for the vast majority of projects (we're going to ignore big tech here because that's the exception that proves the rule).
 
 ## Things are simple
 
@@ -127,9 +127,9 @@ The degree to which I care about code has declined somewhat. There are in my min
 
 But that art is quickly losing its importance. We can look at well written code and architectures and appreciate them in and of themselves and in that sense they will always have some value. However, the reason we ever started to care about this stuff was maintainability. Maintainability is tied to business value and for a large swathe of systems the value of this maintainability is much less because change is going to be handled by agents, and because the business just does not care about the code; they never really did, they've only ever cared about the value they extract from it.
 
-I personally think it's very important we maintain the ability to read and understand the code of systems you're responsible for. In my own projects, even though I am moving at a much greater pace now, I am spending as much time as possible reviewing PRs before they go in the system. My main project was written by hand before even the ChatGPT copy-paste era. With the speed at which I've been shipping new features since embracing agentic workflows, I can feel how easy it would be to miss critical changes and lose track of how the system evolves over time. It wouldn't then be long until one day I look at the system and it's as foreign to me as a codebase at a new job. 
+I personally think it's very important we maintain the ability to read and understand the code of systems you're responsibile for. In my own projects, even though I am moving at a much greater pace now, I am spending as much time as possible reviewing PRs before they go in the system. My main project was written by hand before even the ChatGPT copy-paste era. With the speed at which I've been shipping new features since embracing agentic workflows, I can feel how easy it would be to miss critical changes and lose track of how the system evolves over time. It wouldn't then be long until one day I look at the system and it's as foreign to me as a codebase at a new job. 
 
-I work as a one person team, but I've always created PRs for new features regardless. This has always just been a workflow I'm comfortable with; something about viewing the PR in the GitHub interface as though it's somebody else's code lets me shift gear mentally in some way that gives me better ability to review the code. Agent created code slots into this workflow nicely.
+I work as a one person team, but I've always created PRs for new features regardless. This has always just been a workflow I'm comfortable with; something about viewing the PR in the Github interface as though it's somebody else's code lets me shift gear mentally in some way that gives me better ability to review the code. Agent created code slots into this workflow nicely.
 
 ## Hubris as a Service
 
