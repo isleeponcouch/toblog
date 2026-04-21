@@ -10,7 +10,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Brisbane based software engineer\'s blog about Swift, Kotlin, PHP, and croissants.',
+    title: 'Here things are written. The value of the things is questionable.',
     htmlAttrs: {
       lang: 'en'
     },

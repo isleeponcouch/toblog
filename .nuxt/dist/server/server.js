@@ -2392,7 +2392,7 @@ async function createApp(ssrContext, config = {}) {
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
     head: {
-      "title": "Brisbane based software engineer's blog about Swift, Kotlin, PHP, and croissants.",
+      "title": "Here things are written. The value of the things is questionable.",
       "htmlAttrs": {
         "lang": "en"
       },
