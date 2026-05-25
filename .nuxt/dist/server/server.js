@@ -1392,9 +1392,9 @@ function shouldScrollToTop(route) {
 
 
 
-const _3a8d7be0 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 4).then(__webpack_require__.bind(null, 28)));
-const _4442e9e2 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/_slug */ 3).then(__webpack_require__.bind(null, 29)));
-const _3dfabe70 = () => interopDefault(__webpack_require__.e(/* import() | pages/_slug */ 2).then(__webpack_require__.bind(null, 30)));
+const _2f541717 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 4).then(__webpack_require__.bind(null, 28)));
+const _349a7b30 = () => interopDefault(__webpack_require__.e(/* import() | pages/blog/_slug */ 3).then(__webpack_require__.bind(null, 29)));
+const _2d9d75cf = () => interopDefault(__webpack_require__.e(/* import() | pages/_slug */ 2).then(__webpack_require__.bind(null, 30)));
 const emptyFn = () => {};
 external_vue_default.a.use(external_vue_router_default.a);
 const routerOptions = {
@@ -1405,15 +1405,15 @@ const routerOptions = {
   scrollBehavior: router_scrollBehavior,
   routes: [{
     path: "/",
-    component: _3a8d7be0,
+    component: _2f541717,
     name: "index"
   }, {
     path: "/blog/:slug?",
-    component: _4442e9e2,
+    component: _349a7b30,
     name: "blog-slug"
   }, {
     path: "/:slug",
-    component: _3dfabe70,
+    component: _2d9d75cf,
     name: "slug"
   }],
   fallback: false
@@ -1585,7 +1585,7 @@ var nuxt_error_component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "160a83e9"
+  "0525633c"
   
 )
 
@@ -1851,7 +1851,7 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
   false,
   nuxt_loading_injectStyles,
   null,
-  "33d02add"
+  "64ab89d4"
   
 )
 
@@ -1886,7 +1886,7 @@ var default_component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "348876cd"
+  "668ed006"
   
 )
 

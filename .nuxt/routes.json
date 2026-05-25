@@ -2,22 +2,22 @@
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/tobigundry/dev/writing/pages/index.vue",
+    "component": "/Users/tobiasgundry/dev/toblog/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_3a8d7be0"
+    "_name": "_2f541717"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug?",
-    "component": "/Users/tobigundry/dev/writing/pages/blog/_slug.vue",
+    "component": "/Users/tobiasgundry/dev/toblog/pages/blog/_slug.vue",
     "chunkName": "pages/blog/_slug",
-    "_name": "_4442e9e2"
+    "_name": "_349a7b30"
   },
   {
     "name": "slug",
     "path": "/:slug",
-    "component": "/Users/tobigundry/dev/writing/pages/_slug.vue",
+    "component": "/Users/tobiasgundry/dev/toblog/pages/_slug.vue",
     "chunkName": "pages/_slug",
-    "_name": "_3dfabe70"
+    "_name": "_2d9d75cf"
   }
 ]
