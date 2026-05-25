@@ -15,7 +15,7 @@ Your `AGENTS.md` or whichever agent guardrails you're using should follow a simi
 
 It's impossible to figure out what mistakes agents will make on your code from the outset, so this small habit added to your workflow is a low effort high impact change that you'll eventually notice you're rarely having to do all.
 
-# Take it easy there buster
+## Take it easy there buster
 
 There is one issue with this approach. Context windows are finite and precious. Take action on every weird agent output, but ask if that action can actually be a unit test instead. If not, can it be scoped down to a skill or `ARCHITECURE.md` or topic document or somewhere else where it won't get read into context unnecessarily. Review the guardrails somewhat regularly and prune out what's not relevant anymore. For example if early on in the project you added to not use a certain design patter, but have since used another pattern extensively and documented its use, you may be able to experiment with removing that guardrail now. Whatever the guardrail, if you end up having to add it back in, then you know its necessary. 
 
