@@ -13,7 +13,7 @@ If you follow Test Driven Develoment (TDD) even loosely in your project, your wo
 
 Your `AGENTS.md` or whichever agent guardrails you're using should follow a similar pattern. Your guardrails are project based. They belong to that project as much as a test suite belongs to its project. Every time you notice an output from your agent that went off the rails, your next prompt should be to fix the issue and update the agent skills to never do that thing again. If you do this over time, your project builds up a nice little immunity to agent missteps.
 
-It's impossible to figure out what mistakes agents will make on your code from the outset, so this small habbit added to your workflow is a low effort high impact change that you'll eventually notice you're rarely having to do all.
+It's impossible to figure out what mistakes agents will make on your code from the outset, so this small habit added to your workflow is a low effort high impact change that you'll eventually notice you're rarely having to do all.
 
 # Take it easy there buster
 
