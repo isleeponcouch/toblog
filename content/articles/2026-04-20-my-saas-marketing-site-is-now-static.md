@@ -9,7 +9,9 @@ updatedAt: 2026-04-20
 
 I'm begrudgingly responsible for the marketing website of a product I built. The site sits seperately from everything else, completely different hosting providers not just separate instances, no connection back into the real product. It runs on an opensource CMS, has a lot of mostly clunky plugins for SEO, caching, backups. It does the job, I guess.
 
-Recently I used Claude Cowork/Dispatch to make some updates to it. It did a pretty good job. I logged the browser in to the backend, it used the Chrome plugin to control it in a non-headless kind of way which seemed a bit wasteful but worked, created some content and inserted it into the CMS in the right places in the right style, no mistakes. I can't stand the workflow for CMS backends, it's slow and boring and the disconnect between working in an editor and the code that is ultimately produced is frustrating for any developer because we'd just be faster and better straight in the code. I'm a big fan of static generators, or even just collections of HTML files. So it was great to actually be able to delegate something I can't stand to an agent. 
+Recently I used Claude Cowork/Dispatch to make some updates to it. It did a pretty good job. I logged the browser in to the backend, it used the Chrome plugin to control it in a non-headless kind of way which seemed a bit wasteful but worked, created some content and inserted it into the CMS in the right places in the right style, no mistakes. 
+
+I can't stand the workflow for CMS backends, it's slow and boring and the disconnect between working in an editor and the code that is ultimately produced is frustrating for any developer because we'd just be faster and better straight in the code. I'm a big fan of static generators, or even just collections of HTML files. So it was great to actually be able to delegate something I can't stand to an agent. 
 
 But wait a second. If I'm just getting an agent to update the CMS now, do I even need that anymore or is it just a bottleneck to the agent who is going to be doing this work from now on?
 
