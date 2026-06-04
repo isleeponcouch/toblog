@@ -1,7 +1,7 @@
 ---
 title: Human Augmented Agentic Engineering 
-bg: bg-rose-600
-decoration: decoration-rose-600
+bg: bg-fuchsia-600
+decoration: decoration-fuchsia-600
 archived: false
 createdAt: 2026-06-01
 updatedAt: 2026-06-01
