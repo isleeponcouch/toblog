@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1780553116",layout:"default",error:a,serverRendered:true,routePath:"\u002F2025-04-23-refactoring-my-symfony-7-app-to-use-events",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"ce608f1f"}}}}(null));

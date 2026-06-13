@@ -1,12 +1,12 @@
 ---
-title: I had a Fable session in flight when the Executive Order hit  
+title: I had a Fable session in flight when the suspension directive hit  
 bg: bg-blue-600
 decoration: decoration-blue-600
 createdAt: 2026-06-13
 updatedAt: 2026-06-13
 ---
 
-Well this was supposed to be a "first impressions of Fable 5" post but instead it's this. Today I was in the backyard with my dog when I got a message on Discord from my boy Francis. Something about Fable and at least I had gotten a chance to use it with a link to an [Anthropic article](https://www.anthropic.com/news/fable-mythos-access). It took a minute to understand the message, but when it suddenly became clear I thought "but I'm using it right now".
+Well this was supposed to be a "first impressions of Fable 5" post but instead it's this. Today I was in the backyard with my dog when I got a message on Discord from my boy Francis. Something about Fable and at least I had gotten a chance to use it with a link to an [Anthropic article](https://www.anthropic.com/news/fable-mythos-access). It took a minute to understand the message, but when it suddenly became clear that Fable had been shutdown by government directive I thought "but I'm using it right now".
 
 But no, I wasn't. When I came back inside, this was what was waiting for me in my terminal:
 
