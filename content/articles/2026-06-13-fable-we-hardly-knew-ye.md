@@ -29,7 +29,12 @@ It was good at spawning related sessions, finding genuinely valuable changes tha
 
 One thing that was clear though, were some things that made Fable very annoying even in the short time I had to use it:
 
-1. Fable would constantly create auto-memories for things that really didn't need to be remembered. It was enough of a problem that I added this to my `zshrc` to wipe them `alias amnesia="rm -f ~/.claude/projects/*/memory/*"` 
-2. Fabes would also stubbornly lock in on a direction and it would be difficult to steer it any other way, requiring at least a new session, but likely also the deletion of other artefacts.
+### Auto Memory
+
+Fable would constantly create auto-memories for things that really didn't need to be remembered. It was enough of a problem that I added this to my `zshrc` to wipe them `alias amnesia="rm -f ~/.claude/projects/*/memory/*"` 
+
+### Unsteerable
+
+Fabes would also stubbornly lock in on a direction and it would be difficult to steer it any other way, requiring at least a new session, but likely also the deletion of other artefacts.
 
 Goodbye Fabes mate, we hardly knew ye.
