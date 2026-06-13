@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1781328295",layout:"default",error:a,serverRendered:true,routePath:"\u002F2026-06-01-human-augmented-agentic-engineering",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"07e21ab1"}}}}(null));
