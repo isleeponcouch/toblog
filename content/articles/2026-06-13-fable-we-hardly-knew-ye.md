@@ -1,5 +1,5 @@
 ---
-title: I had a Fable session in flight when the suspension directive hit  
+title: Farewell Fable, we hardly knew ye 
 bg: bg-blue-600
 decoration: decoration-blue-600
 createdAt: 2026-06-13
@@ -37,4 +37,4 @@ Fable would constantly create auto-memories for things that really didn't need t
 
 Fabes would also stubbornly lock in on a direction and it would be difficult to steer it any other way, requiring at least a new session, but likely also the deletion of other artefacts.
 
-Goodbye Fabes mate, we hardly knew ye.
+Farewell Fabes mate, we hardly knew ye.
