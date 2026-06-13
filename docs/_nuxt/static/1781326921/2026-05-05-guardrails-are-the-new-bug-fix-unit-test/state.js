@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1781326921",layout:"default",error:a,serverRendered:true,routePath:"\u002F2026-05-05-guardrails-are-the-new-bug-fix-unit-test",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"7c94d324"}}}}(null));
