@@ -3,18 +3,21 @@
     "name": "index",
     "path": "/",
     "component": "/Users/tobiasgundry/dev/toblog/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_2f541717"
   },
   {
     "name": "blog-slug",
     "path": "/blog/:slug?",
     "component": "/Users/tobiasgundry/dev/toblog/pages/blog/_slug.vue",
-    "chunkName": "pages/blog/_slug"
+    "chunkName": "pages/blog/_slug",
+    "_name": "_349a7b30"
   },
   {
     "name": "slug",
     "path": "/:slug",
     "component": "/Users/tobiasgundry/dev/toblog/pages/_slug.vue",
-    "chunkName": "pages/_slug"
+    "chunkName": "pages/_slug",
+    "_name": "_2d9d75cf"
   }
 ]
