@@ -23,7 +23,7 @@ I think this moment is going to change the direction, or at the very least the p
 
 It's moot now and I didn't get long with the model before it was 86'd. But I had enough sessions to get a good feel of Fable 5.
 
-Fable essentially felt like a very small step up from 4.8, the step up came from I think slightly more detailed and direct analysis of problems – thought his really only showed up in planning and handoff more so than code. 
+Fable essentially felt like a very small step up from 4.8, the step up came from I think slightly more detailed and direct analysis of problems – though his really only showed up in planning and handoff more so than code. 
 
 It was good at spawning related sessions, finding genuinely valuable changes that fit within the domain boundary of what it had just been working on but outside the scope of the current session. Though I spent so little time with 4.8 before switching to Fable 5 on release day I wonder if I can really make any fair comparison and if perhaps that's a feature of 4.8 as well.
 
